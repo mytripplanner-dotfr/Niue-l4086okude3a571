@@ -1,0 +1,292 @@
+{
+  "pays": "Niue",
+  "drapeau": "🇳🇺",
+  "symbole": "🌴",
+  "titre": "Niue, le Trésor Caché du Pacifique",
+  "budget_total": "4800€",
+  "duree": "11 jours",
+  "temps_vol": "30h depuis Labben, Philippines avec escales",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "🛬",
+      "titre": "Arrivée paisible à Alofi",
+      "legende": "Après un long voyage, l'île de Niue vous accueille avec sa tranquillité. Prenez le temps de vous installer et de vous imprégner de l'atmosphère unique de la capitale, Alofi. Une balade légère le long de la côte vous permettra de découvrir les premiers charmes de cette perle du Pacifique.",
+      "lieu": "Alofi",
+      "activites": [
+        "🛬 <strong>Arrivée et installation</strong>: Atterrissez à l'aéroport international de Niue et rejoignez votre hôtel pour vous rafraîchir et vous détendre après le vol.",
+        "🚶‍♀️ <strong>Balade découverte à Alofi</strong>: Promenez-vous dans la petite capitale d'Alofi, admirez les bâtiments colorés et familiarisez-vous avec l'ambiance décontractée de l'île."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Conseil d'arrivée",
+          "texte": "Le vol pour Niue est souvent hebdomadaire, assurez-vous de bien coordonner vos correspondances pour éviter les longues attentes."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🌊",
+      "titre": "Les piscines naturelles du Nord",
+      "legende": "Aujourd'hui, partez à la découverte des trésors cachés de la côte nord de Niue. Des piscines naturelles aux eaux cristallines vous attendent pour une baignade rafraîchissante, tandis que des formations rocheuses spectaculaires témoignent de la force de la nature. Une journée entre exploration et détente aquatique.",
+      "lieu": "Côte Nord",
+      "activites": [
+        "🏊‍♀️ <strong>Baignade aux Limu Pools</strong>: Plongez dans les eaux turquoise et calmes de ces piscines naturelles, parfaites pour le snorkeling et l'observation des poissons tropicaux.",
+        "🏞️ <strong>Exploration de Matapa Chasm</strong>: Aventurez-vous dans cette gorge impressionnante où le roi de Niue se baignait autrefois, offrant une expérience de baignade unique et majestueuse."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "⚠️",
+          "titre": "Marées",
+          "texte": "Vérifiez les horaires des marées avant de visiter les Limu Pools et Matapa Chasm pour profiter pleinement de la baignade."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "⛰️",
+      "titre": "Les mystères de la côte Est",
+      "legende": "L'est de Niue révèle des paysages plus sauvages et des formations géologiques impressionnantes. Des sentiers à travers la forêt tropicale mènent à des gouffres et des grottes secrètes, offrant des vues spectaculaires et des opportunités d'exploration uniques. Préparez-vous à une journée d'aventure et de découverte.",
+      "lieu": "Côte Est",
+      "activites": [
+        "🚶‍♂️ <strong>Randonnée au Togo Chasm</strong>: Marchez à travers une forêt luxuriante et descendez une échelle en bois pour atteindre une plage de sable isolée entourée de falaises et de grottes marines.",
+        "🦇 <strong>Visite d'Anapala Chasm</strong>: Descendez les marches jusqu'à cette piscine d'eau douce nichée au fond d'une gorge, un lieu rafraîchissant et paisible."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "👟",
+          "titre": "Équipement",
+          "texte": "Portez des chaussures de marche robustes et antidérapantes pour explorer les sentiers et les grottes de la côte Est."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🗿",
+      "titre": "Grottes et plages secrètes du Sud",
+      "legende": "La côte sud de Niue est un véritable labyrinthe de grottes marines et de plages isolées. Chaque recoin révèle une nouvelle merveille naturelle, des formations rocheuses sculptées par l'océan aux piscines cachées. Une journée dédiée à l'exploration souterraine et aux plaisirs balnéaires.",
+      "lieu": "Côte Sud",
+      "activites": [
+        "🔦 <strong>Exploration d'Avaiki Cave</strong>: Découvrez cette grotte marine spectaculaire, accessible à marée basse, avec ses formations rocheuses impressionnantes et sa piscine naturelle.",
+        "🏖️ <strong>Détente à Hio Beach</strong>: Profitez de cette magnifique plage de sable blanc, idéale pour la baignade et la détente après l'exploration des grottes.",
+        "🌊 <strong>Visite de Palaha Cave</strong>: Admirez les vues imprenables sur l'océan depuis l'intérieur de cette grotte ouverte, un spot photo incontournable."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Lampe frontale",
+          "texte": "Une lampe frontale est indispensable pour explorer certaines grottes de Niue en toute sécurité."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🐠",
+      "titre": "Immersion dans le monde marin",
+      "legende": "Niue est réputée pour ses eaux cristallines et sa vie marine abondante. Que ce soit en plongée sous-marine ou en snorkeling, vous serez émerveillé par la diversité des coraux et des poissons tropicaux. Si la saison le permet, une rencontre avec les majestueuses baleines à bosse sera un moment inoubliable.",
+      "lieu": "Eaux de Niue",
+      "activites": [
+        "🐳 <strong>Excursion d'observation des baleines</strong>: Embarquez pour une aventure inoubliable à la rencontre des baleines à bosse (juillet à octobre), qui viennent se reproduire dans les eaux chaudes de Niue.",
+        "🐠 <strong>Snorkeling guidé</strong>: Explorez les récifs coralliens et nagez parmi les poissons colorés lors d'une session de snorkeling dans les meilleurs spots de l'île."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🗓️",
+          "titre": "Saison des baleines",
+          "texte": "La meilleure période pour observer les baleines à bosse est de juillet à octobre. Réservez votre excursion à l'avance."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🗿",
+      "titre": "Rencontre avec la culture Niue",
+      "legende": "Plongez au cœur de la culture niuéenne en participant à des activités traditionnelles. Découvrez l'artisanat local, goûtez aux saveurs authentiques de l'île et apprenez-en davantage sur les coutumes et l'histoire de ce peuple accueillant. Une journée riche en échanges et en découvertes humaines.",
+      "lieu": "Villages de Niue",
+      "activites": [
+        "🎨 <strong>Atelier d'artisanat local</strong>: Participez à un atelier pour apprendre à tresser des paniers ou fabriquer des bijoux traditionnels avec des artisans locaux.",
+        "🍽️ <strong>Dégustation de plats locaux</strong>: Savourez un \"umu\" (festin cuit dans un four souterrain) ou d'autres spécialités niuéennes dans un restaurant local ou lors d'un événement communautaire."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🤝",
+          "titre": "Respect des coutumes",
+          "texte": "Lorsque vous visitez les villages, habillez-vous modestement et demandez toujours la permission avant de prendre des photos des habitants."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🚗",
+      "titre": "Exploration des trésors cachés",
+      "legende": "Aujourd'hui, prenez le temps de vous perdre sur les routes côtières de Niue, à la recherche de points de vue spectaculaires et de petites criques isolées. L'île regorge de sentiers moins connus qui mènent à des merveilles naturelles insoupçonnées. Une journée pour explorer à votre rythme et laisser la surprise opérer.",
+      "lieu": "Autour de l'île",
+      "activites": [
+        "🚗 <strong>Tour de l'île en voiture</strong>: Louez une voiture et faites le tour de l'île, en vous arrêtant aux nombreux points de vue et aux panneaux indiquant les \"sea tracks\".",
+        "🚶‍♀️ <strong>Découverte de Talava Arches</strong>: Randonnez jusqu'à ces arches naturelles impressionnantes, sculptées par l'océan, offrant un spectacle grandiose à marée basse."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🗺️",
+          "titre": "Carte de l'île",
+          "texte": "Procurez-vous une carte détaillée de Niue pour ne manquer aucun des nombreux points d'intérêt et \"sea tracks\"."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "☀️",
+      "titre": "Journée détente et récifs",
+      "legende": "Après plusieurs jours d'exploration intense, offrez-vous une journée de pure détente. Profitez des plages calmes de Niue pour vous prélasser au soleil ou explorez les récifs peu profonds à la recherche de vie marine. Une pause bien méritée pour recharger les batteries et savourer la douceur de vivre insulaire.",
+      "lieu": "Plages de Niue",
+      "activites": [
+        "🏖️ <strong>Détente à Utuko Beach</strong>: Passez la matinée sur cette plage paisible, idéale pour la baignade et le farniente.",
+        "🐠 <strong>Snorkeling à Avatele Beach</strong>: Explorez les eaux claires d'Avatele, un excellent spot pour le snorkeling à marée basse, avec une abondance de poissons."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🧴",
+          "titre": "Protection solaire",
+          "texte": "Le soleil de Niue est intense, n'oubliez pas votre crème solaire biodégradable, un chapeau et des lunettes de soleil."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "🌿",
+      "titre": "Aventures intérieures et saveurs locales",
+      "legende": "Aventurez-vous à l'intérieur des terres pour découvrir une autre facette de Niue, loin des côtes. Explorez la forêt tropicale, rencontrez les habitants dans les petits villages et dégustez des produits frais du marché. Une journée pour se connecter avec la nature et la vie quotidienne des Niueans.",
+      "lieu": "Intérieur de l'île",
+      "activites": [
+        "🚶‍♂️ <strong>Randonnée dans la forêt</strong>: Partez pour une randonnée guidée à travers la forêt tropicale pour découvrir la flore et la faune endémiques de Niue.",
+        "🛍️ <strong>Visite du marché d'Alofi</strong>: Flânez au marché local d'Alofi (souvent le vendredi ou le samedi matin) pour acheter des fruits frais, des légumes et de l'artisanat."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "🦟",
+          "titre": "Anti-moustiques",
+          "texte": "Prévoyez un bon répulsif anti-moustiques, surtout si vous explorez l'intérieur des terres ou en fin de journée."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "🎁",
+      "titre": "Derniers souvenirs et adieux",
+      "legende": "Profitez de votre dernière journée complète pour acheter des souvenirs, revisiter un lieu coup de cœur ou simplement vous imprégner une dernière fois de la sérénité de Niue. Un dîner d'adieu vous permettra de savourer les saveurs locales et de repenser aux merveilleux moments passés sur l'île.",
+      "lieu": "Alofi et environs",
+      "activites": [
+        "🛍️ <strong>Achats de souvenirs</strong>: Parcourez les petites boutiques d'Alofi pour trouver des objets d'artisanat local, des sculptures en bois ou des produits à base de noni.",
+        "🌅 <strong>Coucher de soleil à Hikutavake</strong>: Terminez votre séjour par un magnifique coucher de soleil depuis un point de vue panoramique, comme Hikutavake."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "✈️",
+          "titre": "Formalités de départ",
+          "texte": "Vérifiez les exigences de votre compagnie aérienne concernant les bagages et les formalités d'enregistrement pour un départ serein."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🛫",
+      "titre": "Départ de Niue",
+      "legende": "Il est temps de quitter cette île paradisiaque, la tête remplie de souvenirs inoubliables. Après un dernier petit-déjeuner, vous serez transféré à l'aéroport pour votre vol retour, emportant avec vous la magie de Niue.",
+      "lieu": "Aéroport de Niue",
+      "activites": [
+        "🛫 <strong>Transfert à l'aéroport</strong>: Profitez d'un dernier regard sur l'île avant votre transfert vers l'aéroport international de Niue.",
+        "👋 <strong>Vol retour</strong>: Embarquement pour votre vol, marquant la fin de votre aventure niuéenne."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "🛂",
+          "titre": "Douanes",
+          "texte": "Prévoyez suffisamment de temps à l'aéroport pour les formalités de départ et les contrôles de sécurité."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "2500€/pers (Vol A/R Labben-Niue via Auckland en classe économique)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "450€/pers (Location de voiture 10 jours, essence incluse)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "500€/pers (Repas variés, entre restaurants locaux et pique-niques)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "1200€/pers (10 nuits en hôtel 3 étoiles)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "150€/pers (Excursions, snorkeling, entrées de sites)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mai à octobre.",
+      "symbole": "☀️"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Niue est l'un des plus petits États du monde avec environ 1 600 habitants, offrant une expérience de voyage intime et authentique.",
+      "symbole": "ℹ️"
+    },
+    {
+      "titre": "Niue est une île corallienne surélevée, surnommée le \"Rocher du Pacifique\", connue pour ses falaises abruptes et ses grottes marines.",
+      "symbole": "🏝️"
+    },
+    {
+      "titre": "L'île est le plus grand atoll corallien surélevé du monde et possède une des plus grandes grottes sous-marines accessibles.",
+      "symbole": "🪨"
+    },
+    {
+      "titre": "Niue est l'une des premières nations à avoir un accès internet Wi-Fi gratuit pour tous ses habitants.",
+      "symbole": "🌐"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Infos officielles et inspirations",
+      "titre": "Tourisme Niue",
+      "url": "https://www.niueisland.com/",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Compagnie aérienne principale",
+      "titre": "Air New Zealand",
+      "url": "https://www.airnewzealand.co.nz/",
+      "symbole": "✈️"
+    },
+    {
+      "legende": "Prévisions météo",
+      "titre": "Metservice Niue",
+      "url": "https://www.metservice.com/national/weather/niue",
+      "symbole": "🌤️"
+    }
+  ]
+}
