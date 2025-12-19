@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - Niue</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: -19.054698, lng: -169.87707519999998 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":-19.0558365,"lng":-169.9213651,"name":"Alofi","jour":1,"titre":"Arrivée paisible à Alofi","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.0558365,-169.9213651&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.0558365,-169.9213651","aiImageUrl":"jour1.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Côte Nord","jour":2,"titre":"Les piscines naturelles du Nord","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour2.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Côte Est","jour":3,"titre":"Les mystères de la côte Est","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour3.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Côte Sud","jour":4,"titre":"Grottes et plages secrètes du Sud","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour4.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Eaux de Niue","jour":5,"titre":"Immersion dans le monde marin","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour5.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Villages de Niue","jour":6,"titre":"Rencontre avec la culture Niue","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour6.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Autour de l'île","jour":7,"titre":"Exploration des trésors cachés","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour7.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Plages de Niue","jour":8,"titre":"Journée détente et récifs","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour8.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Intérieur de l'île","jour":9,"titre":"Aventures intérieures et saveurs locales","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour9.jpg"},{"lat":-19.0558365,"lng":-169.9213651,"name":"Alofi et environs","jour":10,"titre":"Derniers souvenirs et adieux","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.0558365,-169.9213651&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.0558365,-169.9213651","aiImageUrl":"jour10.jpg"},{"lat":-19.054445,"lng":-169.867233,"name":"Aéroport de Niue","jour":11,"titre":"Départ de Niue","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=-19.054445,-169.867233&key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=-19.054445,-169.867233","aiImageUrl":"jour11.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5WUNvRC9eOjHRLt92fs4hsp0Auje3aAI&callback=initMap">
+  </script>
+</body>
+</html>
